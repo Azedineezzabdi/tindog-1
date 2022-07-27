@@ -1,0 +1,165 @@
+body {
+  font-family: "Montserrat";
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.title-1 {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.u2 {
+  padding: 0 0 4.5rem;
+}
+
+.container {
+  padding: 3% 15% 7%;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+/* navigation bar  */
+.brand-1 {
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-left: 0;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-size: 1.2rem;
+}
+
+.nav-link {
+  font-family: "Montserrat-light"
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.img-1 {
+  width: 25%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+}
+
+#features {
+  padding: 7% 15% 7% ;
+  background-color: #fff;
+  position: relative;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.p {
+  color: #8F8F8F;
+}
+
+.testimonial-text {
+  font-family: "Montserrat-bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.features-class {
+  text-align: center;
+  padding: 5%;
+}
+
+/* testimonials section */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+
+
+/* pricing section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-clumn {
+  padding: 3% 2%;
+}
+
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+  .img-1 {
+    position: static;
+    transform: rotate(0);
+    width:60%;
+  }
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+padding: 7% 15% ;
+}
+.cta {
+   color: #fff;
+   font-family: "Montserrat";
+   font-size: 3.5rem;
+   font-weight: bold;
+   line-height: 1.5;
+
+}
+/* footer  */
+#footer {
+  text-align: center;
+  padding: 3% 10%;
+  background-color: #fff;
+
+}
+.copyright {
+    color: #8F8F8F;
+    font-size: 1rem;
+
+}
+.icons {
+  margin: 20px 10px;
+}
